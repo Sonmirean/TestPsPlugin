@@ -1,6 +1,6 @@
 
-
-#define auto_ptr unique_ptr
+// SDK uses deprecated auto_ptr
+//#define auto_ptr unique_ptr
 
 #include <SPBasic.h>
 #include <SPInterf.h>
@@ -10,7 +10,7 @@
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
-#include <Windows.h>
+#include <windows.h>
 #include <string.h>
 #include <assert.h>
 

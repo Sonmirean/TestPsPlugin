@@ -1,5 +1,6 @@
+
 #include "PIDefines.h"
-#include "tutorial_automation_globals.h"
+#include "tutorial_automation_globals.hpp"
 
 #ifdef __PIMac__
 	#include "PIGeneral.r"

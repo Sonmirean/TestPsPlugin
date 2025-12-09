@@ -9,7 +9,8 @@
         "${env.INCLUDE}",
         "${workspaceRoot}\\**",
         "C:/Work/Plugins/TestPsPlugin/src",
-        "C:/C libraries/psapi/"
+        "C:/C libraries/psapi/",
+        "C:/C libraries/imgui-master/"
       ],
       "defines": [
         "WIN32",
